@@ -1,0 +1,283 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+use App\Models\Orders;
+
+class Returns extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        Orders::create([
+            'order_date'=> '2023-04-23 09:12:30',
+            'store_id'=> 999723,
+            'return_store_id'=> NULL,
+            'order_number'=> 231701,
+            'tracking_number'=> '9400111108296742375725',
+            'shipping_country'=> 'US',
+            'buyer_name'=> 'Will Groud',
+            'buyer_street_number'=> '356 Gret Sound Street',
+            'buyer_postal_code'=> '30133',
+            'packing_condition'=> 'Pass',
+            'item_condition'=> 'Appears New',
+            'photo_upload'=> '',
+            'return_notes'=> '1-Gret-Wat-Medal / Return To Sender',
+            'no_items_returned'=> 1,
+            'postage_due'=> '',
+            'billed_return'=> '',
+            'archive_return'=> '',
+            'returned_age'=> '',
+            'notes_conqueror_only'=> '',
+            'order_type'=> 'Returns'
+        ]);
+        Orders::create([
+            'order_date'=> '2023-04-24 12:12:06',
+            'store_id'=> 999723,
+            'return_store_id'=> NULL,
+            'order_number'=> 231706,
+            'tracking_number'=> '940011116584622468',
+            'shipping_country'=> 'US',
+            'buyer_name'=> 'Greg Hund',
+            'buyer_street_number'=> '123 Colon Avenue',
+            'buyer_postal_code'=> '32804',
+            'packing_condition'=> 'Pass',
+            'item_condition'=> 'Appears New',
+            'photo_upload'=> '',
+            'return_notes'=> '1-Col-Sig-Medal / Return To Sender',
+            'no_items_returned'=> 1,
+            'postage_due'=> '',
+            'billed_return'=> '',
+            'archive_return'=> '',
+            'returned_age'=> '',
+            'notes_conqueror_only'=> '',
+            'order_type'=> 'Returns'
+        ]);
+        Orders::create([
+            'order_date'=> '2023-04-24 03:41:30',
+            'store_id'=> 999723,
+            'return_store_id'=> NULL,
+            'order_number'=> 231709,
+            'tracking_number'=> '94001111333365421',
+            'shipping_country'=> 'US',
+            'buyer_name'=> 'Mary Jade',
+            'buyer_street_number'=> '567 Tin Kil Street',
+            'buyer_postal_code'=> '40651',
+            'packing_condition'=> 'Pass',
+            'item_condition'=> 'Appears New',
+            'photo_upload'=> '',
+            'return_notes'=> '1-Sin-Won-Medal / Return To Sender',
+            'no_items_returned'=> 1,
+            'postage_due'=> '',
+            'billed_return'=> '',
+            'archive_return'=> '',
+            'returned_age'=> '',
+            'notes_conqueror_only'=> '',
+            'order_type'=> 'Returns'
+        ]);
+        Orders::create([
+            'order_date'=> '2023-04-25 16:02:53',
+            'store_id'=> 999723,
+            'return_store_id'=> NULL,
+            'order_number'=> 231712,
+            'tracking_number'=> '9400111166845216',
+            'shipping_country'=> 'US',
+            'buyer_name'=> 'Paul Gad',
+            'buyer_street_number'=> '102 Serin Bass Avenue',
+            'buyer_postal_code'=> '32102',
+            'packing_condition'=> 'Pass',
+            'item_condition'=> 'Appears New',
+            'photo_upload'=> '',
+            'return_notes'=> '1-Pot-Wat-Medal / Return To Sender',
+            'no_items_returned'=> 1,
+            'postage_due'=> '',
+            'billed_return'=> '',
+            'archive_return'=> '',
+            'returned_age'=> '',
+            'notes_conqueror_only'=> '',
+            'order_type'=> 'Returns'
+        ]);
+        Orders::create([
+            'order_date'=> '2023-04-26 03:40:15',
+            'store_id'=> 999723,
+            'return_store_id'=> NULL,
+            'order_number'=> 231714,
+            'tracking_number'=> '9400111195958842',
+            'shipping_country'=> 'US',
+            'buyer_name'=> 'Bryan Will',
+            'buyer_street_number'=> '467 Rown Gas Street',
+            'buyer_postal_code'=> '30125',
+            'packing_condition'=> 'Pass',
+            'item_condition'=> 'Appears New',
+            'photo_upload'=> '',
+            'return_notes'=> '1-Wer-In-Medal / Return To Sender',
+            'no_items_returned'=> 1,
+            'postage_due'=> '',
+            'billed_return'=> '',
+            'archive_return'=> '',
+            'returned_age'=> '',
+            'notes_conqueror_only'=> '',
+            'order_type'=> 'Returns'
+        ]);
+        Orders::create([
+            'order_date'=> '2023-04-26 09:30:32',
+            'store_id'=> 999723,
+            'return_store_id'=> NULL,
+            'order_number'=> 231715,
+            'tracking_number'=> '9400111122334509',
+            'shipping_country'=> 'US',
+            'buyer_name'=> 'Bogs Num',
+            'buyer_street_number'=> '445 You Brill Street',
+            'buyer_postal_code'=> '30133',
+            'packing_condition'=> 'Pass',
+            'item_condition'=> 'Appears New',
+            'photo_upload'=> '',
+            'return_notes'=> '1-Bun-Tim-Medal / Return To Sender',
+            'no_items_returned'=> 1,
+            'postage_due'=> '',
+            'billed_return'=> '',
+            'archive_return'=> '',
+            'returned_age'=> '',
+            'notes_conqueror_only'=> '',
+            'order_type'=> 'Returns'
+        ]);
+        Orders::create([
+            'order_date'=> '2023-04-27 20:12:30',
+            'store_id'=> 999723,
+            'return_store_id'=> NULL,
+            'order_number'=> 231716,
+            'tracking_number'=> '940011115644008743',
+            'shipping_country'=> 'US',
+            'buyer_name'=> 'Por Tin',
+            'buyer_street_number'=> '114 Bide Avenue',
+            'buyer_postal_code'=> '35488',
+            'packing_condition'=> 'Pass',
+            'item_condition'=> 'Appears New',
+            'photo_upload'=> '',
+            'return_notes'=> '1-Bid-Wat-Medal / Return To Sender',
+            'no_items_returned'=> 1,
+            'postage_due'=> '',
+            'billed_return'=> '',
+            'archive_return'=> '',
+            'returned_age'=> '',
+            'notes_conqueror_only'=> '',
+            'order_type'=> 'Returns'
+        ]);
+        Orders::create([
+            'order_date'=> '2023-04-27 23:34:01',
+            'store_id'=> 999723,
+            'return_store_id'=> NULL,
+            'order_number'=> 231718,
+            'tracking_number'=> '94001111343434556',
+            'shipping_country'=> 'US',
+            'buyer_name'=> 'Musei Trim',
+            'buyer_street_number'=> '146 Run Tis Street',
+            'buyer_postal_code'=> '63114',
+            'packing_condition'=> 'Pass',
+            'item_condition'=> 'Appears New',
+            'photo_upload'=> '',
+            'return_notes'=> '1-Yor-Ret-Medal / Return To Sender',
+            'no_items_returned'=> 1,
+            'postage_due'=> '',
+            'billed_return'=> '',
+            'archive_return'=> '',
+            'returned_age'=> '',
+            'notes_conqueror_only'=> '',
+            'order_type'=> 'Returns'
+        ]);
+        Orders::create([
+            'order_date'=> '2023-04-30 10:22:13',
+            'store_id'=> 999723,
+            'return_store_id'=> NULL,
+            'order_number'=> 231719,
+            'tracking_number'=> '9400111166333156488',
+            'shipping_country'=> 'US',
+            'buyer_name'=> 'Ryan Bill',
+            'buyer_street_number'=> '436 Got Win Street',
+            'buyer_postal_code'=> '32115',
+            'packing_condition'=> 'Pass',
+            'item_condition'=> 'Appears New',
+            'photo_upload'=> '',
+            'return_notes'=> '1-Got-Wat-Medal / Return To Sender',
+            'no_items_returned'=> 1,
+            'postage_due'=> '',
+            'billed_return'=> '',
+            'archive_return'=> '',
+            'returned_age'=> '',
+            'notes_conqueror_only'=> '',
+            'order_type'=> 'Returns'
+        ]);
+        Orders::create([
+            'order_date'=> '2023-04-30 11:11:05',
+            'store_id'=> 999723,
+            'return_store_id'=> NULL,
+            'order_number'=> 231721,
+            'tracking_number'=> '94001111000223434614',
+            'shipping_country'=> 'US',
+            'buyer_name'=> 'Pedro Grood',
+            'buyer_street_number'=> '563 San Jose Street',
+            'buyer_postal_code'=> '33364',
+            'packing_condition'=> 'Pass',
+            'item_condition'=> 'Appears New',
+            'photo_upload'=> '',
+            'return_notes'=> '1-Jod-Sen-Medal / Return To Sender',
+            'no_items_returned'=> 1,
+            'postage_due'=> '',
+            'billed_return'=> '',
+            'archive_return'=> '',
+            'returned_age'=> '',
+            'notes_conqueror_only'=> '',
+            'order_type'=> 'Returns'
+        ]);
+        Orders::create([
+            'order_date'=> '2023-04-30 20:15:15',
+            'store_id'=> 999723,
+            'return_store_id'=> NULL,
+            'order_number'=> 231724,
+            'tracking_number'=> '94001111666351202',
+            'shipping_country'=> 'US',
+            'buyer_name'=> 'Bods Gud',
+            'buyer_street_number'=> '109 Win GB Avenue',
+            'buyer_postal_code'=> '30333',
+            'packing_condition'=> 'Pass',
+            'item_condition'=> 'Appears New',
+            'photo_upload'=> '',
+            'return_notes'=> '1-Bin-Rin-Medal / Return To Sender',
+            'no_items_returned'=> 1,
+            'postage_due'=> '',
+            'billed_return'=> '',
+            'archive_return'=> '',
+            'returned_age'=> '',
+            'notes_conqueror_only'=> '',
+            'order_type'=> 'Returns'
+        ]);
+        Orders::create([
+            'order_date'=> '2023-04-31 14:06:34',
+            'store_id'=> 999723,
+            'return_store_id'=> NULL,
+            'order_number'=> 231726,
+            'tracking_number'=> '940011112323555711',
+            'shipping_country'=> 'US',
+            'buyer_name'=> 'Pot Lue',
+            'buyer_street_number'=> '987 Set Pos Ave.',
+            'buyer_postal_code'=> '42301',
+            'packing_condition'=> 'Pass',
+            'item_condition'=> 'Appears New',
+            'photo_upload'=> '',
+            'return_notes'=> '1-Set-On-Medal / Return To Sender',
+            'no_items_returned'=> 1,
+            'postage_due'=> '',
+            'billed_return'=> '',
+            'archive_return'=> '',
+            'returned_age'=> '',
+            'notes_conqueror_only'=> '',
+            'order_type'=> 'Returns'
+        ]);
+    }
+}
